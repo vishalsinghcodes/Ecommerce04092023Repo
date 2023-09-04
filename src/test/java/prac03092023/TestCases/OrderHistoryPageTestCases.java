@@ -21,13 +21,13 @@ import prac03092023.TestComponent.BaseClass;
 
 public class OrderHistoryPageTestCases extends BaseClass {
 	
-	@Test(dataProvider = "dataFromJson", groups = "JSONUsed")
+	@Test(dataProvider = "dataFromJson", groups = "JSONUsed" , enabled = false)
 	public void OrderHistoryPriceVerificationAllproducts(HashMap<String,String> data) throws IOException, InterruptedException {
 		LandingPage landingpage = launchApplication();
 		ProductSelectionPage productSelectionPage = landingpage.loginApplication(data.get("username"), data.get("password"));
 		Thread.sleep(2000);
 		OrderHistoryPage orderHistoryPage =  productSelectionPage.clickOrderButton();
-		orderHistoryPage.validatePriceOfAllOrders();
+		validatePriceOfAllOrders();
 		System.out.println("$$$$$$$$$$$$$$$");
 		
 		

@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="prac03092023.TestCases.LandingPageTestCase">
+      <class name="prac03092023.TestCases.OrderHistoryPageTestCases">
         <methods>
           <include name="afterMethod"/>
-          <include name="inCorrectloginvalidation" invocation-numbers="0 1"/>
+          <include name="OrderHistoryPriceVerificationAllproducts" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- prac03092023.TestCases.LandingPageTestCase -->
+      </class> <!-- prac03092023.TestCases.OrderHistoryPageTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
