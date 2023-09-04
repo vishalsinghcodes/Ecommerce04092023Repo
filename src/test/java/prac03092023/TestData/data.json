@@ -1,0 +1,29 @@
+[
+	{
+		"username": "Udemyselenium@gmail.com",
+		"password": "Password1234",
+		"product": "ZARA COAT 3",
+		"cvv": "123",
+		"nameoncard": "Vishal Singh",
+		"substring": "ind",
+		"country": "India"
+	},
+	{
+		"username": "rahulshetty@gmail.com",
+		"password": "Iamking@000",
+		"product": "IPHONE 13 PRO",
+		"cvv": "699",
+		"nameoncard": "Honey Singh",
+		"substring": "ame",
+		"country": "American Samoa"
+	},
+	{
+		"username": "Udemyselenium@gmail.com",
+		"password": "Password1234",
+		"product": "ADIDAS ORIGINAL",
+		"cvv": "123",
+		"nameoncard": "Vishal Singh",
+		"substring": "ind",
+		"country": "India"
+	}
+]

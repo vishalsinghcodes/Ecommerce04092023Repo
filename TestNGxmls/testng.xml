@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<groups>
+		<run>
+			<include name="DatabaseUsed"></include>
+		</run>
+	</groups>
+	<listeners>
+		<listener class-name="prac03092023.TestComponent.Listeners"></listener>
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="prac03092023.TestCases.LandingPageTestCase" />
+			<class name="prac03092023.TestCases.OrderHistoryPageTestCases" />
+			<class name="prac03092023.TestCases.ProductSelectionPageTestCases" />
+		</classes>
+	</test>
+
+</suite> 
+

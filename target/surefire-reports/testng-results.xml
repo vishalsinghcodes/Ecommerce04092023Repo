@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-04T10:50:26 IST" name="Suite" finished-at="2023-09-04T10:52:07 IST" duration-ms="101429">
+    <groups>
+      <group name="JSONUsed">
+        <method signature="ProductSelectionPageTestCases.buyproductusingJsonFullFlowWithExcelverification(java.util.HashMap)[pri:0, instance:prac03092023.TestCases.ProductSelectionPageTestCases@6e2829c7]" name="buyproductusingJsonFullFlowWithExcelverification" class="prac03092023.TestCases.ProductSelectionPageTestCases"/>
+        <method signature="ProductSelectionPageTestCases.orderHistoryTest(java.util.HashMap)[pri:0, instance:prac03092023.TestCases.ProductSelectionPageTestCases@6e2829c7]" name="orderHistoryTest" class="prac03092023.TestCases.ProductSelectionPageTestCases"/>
+        <method signature="OrderHistoryPageTestCases.OrderHistoryPriceVerificationAllproducts(java.util.HashMap)[pri:0, instance:prac03092023.TestCases.OrderHistoryPageTestCases@15888343]" name="OrderHistoryPriceVerificationAllproducts" class="prac03092023.TestCases.OrderHistoryPageTestCases"/>
+      </group> <!-- JSONUsed -->
+    </groups>
+    <test started-at="2023-09-04T10:50:26 IST" name="Test" finished-at="2023-09-04T10:52:07 IST" duration-ms="101429">
+      <class name="prac03092023.TestCases.OrderHistoryPageTestCases">
+        <test-method signature="OrderHistoryPriceVerificationAllproducts(java.util.HashMap)[pri:0, instance:prac03092023.TestCases.OrderHistoryPageTestCases@15888343]" started-at="2023-09-04T10:50:26 IST" name="OrderHistoryPriceVerificationAllproducts" data-provider="dataFromJson" finished-at="2023-09-04T10:50:33 IST" duration-ms="6803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=India, password=Password1234, product=ZARA COAT 3, cvv=123, nameoncard=Vishal Singh, substring=ind, username=Udemyselenium@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryPriceVerificationAllproducts -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:prac03092023.TestCases.OrderHistoryPageTestCases@15888343]" started-at="2023-09-04T10:50:33 IST" name="afterMethod" finished-at="2023-09-04T10:50:33 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="OrderHistoryPriceVerificationAllproducts(java.util.HashMap)[pri:0, instance:prac03092023.TestCases.OrderHistoryPageTestCases@15888343]" started-at="2023-09-04T10:50:33 IST" name="OrderHistoryPriceVerificationAllproducts" data-provider="dataFromJson" finished-at="2023-09-04T10:50:38 IST" duration-ms="4891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=American Samoa, password=Iamking@000, product=IPHONE 13 PRO, cvv=699, nameoncard=Honey Singh, substring=ame, username=rahulshetty@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryPriceVerificationAllproducts -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:prac03092023.TestCases.OrderHistoryPageTestCases@15888343]" started-at="2023-09-04T10:50:38 IST" name="afterMethod" finished-at="2023-09-04T10:50:38 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="OrderHistoryPriceVerificationAllproducts(java.util.HashMap)[pri:0, instance:prac03092023.TestCases.OrderHistoryPageTestCases@15888343]" started-at="2023-09-04T10:50:38 IST" name="OrderHistoryPriceVerificationAllproducts" data-provider="dataFromJson" finished-at="2023-09-04T10:50:43 IST" duration-ms="4940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=India, password=Password1234, product=ADIDAS ORIGINAL, cvv=123, nameoncard=Vishal Singh, substring=ind, username=Udemyselenium@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryPriceVerificationAllproducts -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:prac03092023.TestCases.OrderHistoryPageTestCases@15888343]" started-at="2023-09-04T10:50:43 IST" name="afterMethod" finished-at="2023-09-04T10:50:43 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- prac03092023.TestCases.OrderHistoryPageTestCases -->
+      <class name="prac03092023.TestCases.ProductSelectionPageTestCases">
+        <test-method signature="buyproductusingJsonFullFlowWithExcelverification(java.util.HashMap)[pri:0, instance:prac03092023.TestCases.ProductSelectionPageTestCases@6e2829c7]" started-at="2023-09-04T10:50:43 IST" name="buyproductusingJsonFullFlowWithExcelverification" data-provider="dataFromJson" finished-at="2023-09-04T10:51:06 IST" duration-ms="23238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=India, password=Password1234, product=ZARA COAT 3, cvv=123, nameoncard=Vishal Singh, substring=ind, username=Udemyselenium@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyproductusingJsonFullFlowWithExcelverification -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:prac03092023.TestCases.ProductSelectionPageTestCases@6e2829c7]" started-at="2023-09-04T10:51:06 IST" name="afterMethod" finished-at="2023-09-04T10:51:06 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="buyproductusingJsonFullFlowWithExcelverification(java.util.HashMap)[pri:0, instance:prac03092023.TestCases.ProductSelectionPageTestCases@6e2829c7]" started-at="2023-09-04T10:51:06 IST" name="buyproductusingJsonFullFlowWithExcelverification" data-provider="dataFromJson" finished-at="2023-09-04T10:51:30 IST" duration-ms="23196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=American Samoa, password=Iamking@000, product=IPHONE 13 PRO, cvv=699, nameoncard=Honey Singh, substring=ame, username=rahulshetty@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyproductusingJsonFullFlowWithExcelverification -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:prac03092023.TestCases.ProductSelectionPageTestCases@6e2829c7]" started-at="2023-09-04T10:51:30 IST" name="afterMethod" finished-at="2023-09-04T10:51:30 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="buyproductusingJsonFullFlowWithExcelverification(java.util.HashMap)[pri:0, instance:prac03092023.TestCases.ProductSelectionPageTestCases@6e2829c7]" started-at="2023-09-04T10:51:30 IST" name="buyproductusingJsonFullFlowWithExcelverification" data-provider="dataFromJson" finished-at="2023-09-04T10:51:53 IST" duration-ms="22777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=India, password=Password1234, product=ADIDAS ORIGINAL, cvv=123, nameoncard=Vishal Singh, substring=ind, username=Udemyselenium@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyproductusingJsonFullFlowWithExcelverification -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:prac03092023.TestCases.ProductSelectionPageTestCases@6e2829c7]" started-at="2023-09-04T10:51:53 IST" name="afterMethod" finished-at="2023-09-04T10:51:53 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:prac03092023.TestCases.ProductSelectionPageTestCases@6e2829c7]" started-at="2023-09-04T10:51:53 IST" name="orderHistoryTest" data-provider="dataFromJson" finished-at="2023-09-04T10:51:57 IST" depends-on-methods="prac03092023.TestCases.ProductSelectionPageTestCases.buyproductusingJsonFullFlowWithExcelverification" duration-ms="4640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=India, password=Password1234, product=ZARA COAT 3, cvv=123, nameoncard=Vishal Singh, substring=ind, username=Udemyselenium@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:prac03092023.TestCases.ProductSelectionPageTestCases@6e2829c7]" started-at="2023-09-04T10:51:57 IST" name="afterMethod" finished-at="2023-09-04T10:51:58 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:prac03092023.TestCases.ProductSelectionPageTestCases@6e2829c7]" started-at="2023-09-04T10:51:58 IST" name="orderHistoryTest" data-provider="dataFromJson" finished-at="2023-09-04T10:52:02 IST" depends-on-methods="prac03092023.TestCases.ProductSelectionPageTestCases.buyproductusingJsonFullFlowWithExcelverification" duration-ms="4499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=American Samoa, password=Iamking@000, product=IPHONE 13 PRO, cvv=699, nameoncard=Honey Singh, substring=ame, username=rahulshetty@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:prac03092023.TestCases.ProductSelectionPageTestCases@6e2829c7]" started-at="2023-09-04T10:52:02 IST" name="afterMethod" finished-at="2023-09-04T10:52:02 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="orderHistoryTest(java.util.HashMap)[pri:0, instance:prac03092023.TestCases.ProductSelectionPageTestCases@6e2829c7]" started-at="2023-09-04T10:52:02 IST" name="orderHistoryTest" data-provider="dataFromJson" finished-at="2023-09-04T10:52:07 IST" depends-on-methods="prac03092023.TestCases.ProductSelectionPageTestCases.buyproductusingJsonFullFlowWithExcelverification" duration-ms="4516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=India, password=Password1234, product=ADIDAS ORIGINAL, cvv=123, nameoncard=Vishal Singh, substring=ind, username=Udemyselenium@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:prac03092023.TestCases.ProductSelectionPageTestCases@6e2829c7]" started-at="2023-09-04T10:52:07 IST" name="afterMethod" finished-at="2023-09-04T10:52:07 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- prac03092023.TestCases.ProductSelectionPageTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
